@@ -1,6 +1,6 @@
 {
   "name": "verynifty-subgraph",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
