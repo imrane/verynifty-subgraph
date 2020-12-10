@@ -1,4 +1,6 @@
-specVersion: 0.0.1
+specVersion: 0.0.2
+description: Tamagotchi game with $MUSE rewards and battles on the Ethereum blockchain
+respository: https://github.com/imrane/verynifty
 schema:
   file: ./schema.graphql
 dataSources:
@@ -10,7 +12,7 @@ dataSources:
       abi: Contract
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.2
+      apiVersion: 0.0.4
       language: wasm/assemblyscript
       entities:
         - Approval

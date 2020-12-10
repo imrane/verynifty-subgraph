@@ -4,3 +4,16 @@ type ExampleEntity @entity {
   owner: Bytes! # address
   approved: Bytes! # address
 }
+
+type vNFT @entity {
+  id: ID!
+  score: BigInt!
+  #owner:
+  #level:
+  #isAlive:
+  #expectedReward:
+  #timeUntilStarving:
+  #lastTimeMined:
+  #timeVnftBorn:
+  #fatalityReward:
+}
